@@ -1,0 +1,130 @@
+.flexbox-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: peachpuff;
+}
+
+
+.flexbox-item {
+    width:  468px;
+    height: 160px;
+    margin: 10px;
+    border: 3px;
+    top:    90px;
+    left:   98px;
+   
+}
+
+ .flexbox-item-1 {
+    width: 468px; 
+    height: 160px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: aqua;
+    
+} 
+
+
+.flexbox-item-2 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+    background-color:blueviolet;
+} 
+
+.flexbox-item-3 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: plum;
+
+
+}
+.flexbox-item-4 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: aquamarine;
+
+
+}
+
+.flexbox-item-5 { 
+    width: 468px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: fuchsia;
+
+}
+
+.flexbox-item-6 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: seagreen;
+
+}
+
+.box-1 { 
+    width: 78px;
+    min-height: 78px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: darkblue; 
+}
+
+.box-2 {
+    width: 78px;
+    min-height: 78px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: lightgreen;
+}
+
+.box-3 {
+    width: 78px;
+    min-height: 78px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: royalblue;
+}
+
+.box-4 {
+    width: 78px;
+    min-height: 78px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: darkorchid;
+
+}  
+
+.box-5 {
+    width: 78px;
+    min-height: 64px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: lightsalmon; 
+}
+
+.box-6 {
+    width: 78px;
+    min-height: 78px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: lavender;
+}
