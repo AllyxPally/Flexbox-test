@@ -76,7 +76,7 @@
     height: 160px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     background-color: seagreen;
 
 }
